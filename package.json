@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Living Styleguide Generator",
   "main": "index.js",
+  "author": "Marco Solazzi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Marco Solazzi",
-  "license": "MIT"
+  }
 }
