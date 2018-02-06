@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= `${[title, collection].join(' - ')}`
+    meta
+  body
+    header
+      h1 Styleguide for #{title}
+      p build: v#{pkg.version} - #{(new Date()).toString()}
+
+      nav
+        ul
+          each collection, key in collections
+            li
+              span= key
+              ul
+                each page in collection
+                  - const current = page.path === path
+                  li: a(href=`${baseUrl}/${page.path}` class=current ? 'is-current' : undefined)= page.title
+    main !{contents}
+    footer
