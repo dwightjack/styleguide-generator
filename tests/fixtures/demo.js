@@ -1,15 +1,15 @@
-const Generator = require('../../lib/generator');
+const { generate } = require('../../lib/generator');
 
-const gen = Generator();
+const generator = generate();
 
-gen.fromSources(['src', 'docs'], (err, files) => {
+generator.fromSources(['src', 'docs'], true, (err, files) => {
     if (err) {
         console.log(err);
         return;
     }
     console.log('Done!');
     console.log(
-        `The following files have been generated in ${gen.destination()}:`
+        `The following files have been generated in ${generator.destination()}:`
     );
     Object.keys(files).forEach((filename) => {
         console.log(`  * ${filename}`);
