@@ -37,6 +37,7 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sass": "^1.5.1",
     "pkg-up": "^2.0.0",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "unyield": "^0.0.1"
   }
 }
