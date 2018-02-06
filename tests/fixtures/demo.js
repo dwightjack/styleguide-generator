@@ -5,8 +5,8 @@ generate({
     dest: 'public/styleguide',
     baseUrl: '/styleguide',
     index: 'docs/README.md',
-    server: false
-    /*server: {
+    watch: true,
+    server: {
         baseDir: ['public']
-    }*/
+    }
 });
