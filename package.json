@@ -11,6 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib/",
+    "bin"
+  ],
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
@@ -22,9 +26,17 @@
   },
   "dependencies": {
     "highlight.js": "^9.12.0",
+    "jstransformer-pug": "^0.3.0",
     "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-debug": "^1.2.0",
     "metalsmith-drafts": "^0.0.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^2.1.0",
     "metalsmith-markdownit": "^0.4.0",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.5.1",
+    "pkg-up": "^2.0.0",
     "pug": "^2.0.0-rc.4"
   }
 }
