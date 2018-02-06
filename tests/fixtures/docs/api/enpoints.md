@@ -1,6 +1,6 @@
 ---
-name: API Endpoints
-group: API
+title: API Endpoints
+collection: API
 ---
 
 ### A test page

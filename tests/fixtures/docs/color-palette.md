@@ -1,5 +1,5 @@
 ---
-name: Color Palette
+title: Color Palette
 ---
 
 This is a text
