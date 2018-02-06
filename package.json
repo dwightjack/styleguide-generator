@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "chalk": "^2.3.0",
+    "has-flag": "^3.0.0",
     "highlight.js": "^9.12.0",
     "jstransformer-pug": "^0.3.0",
     "metalsmith": "^2.3.0",
@@ -37,8 +38,10 @@
     "metalsmith-markdownit": "^0.4.0",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-sass": "^1.5.1",
+    "ora": "^1.4.0",
     "pkg-up": "^2.0.0",
     "pug": "^2.0.0-rc.4",
+    "semver": "^5.5.0",
     "unyield": "^0.0.1"
   }
 }
