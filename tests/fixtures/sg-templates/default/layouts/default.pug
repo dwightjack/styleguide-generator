@@ -12,10 +12,10 @@ html
         ul
           each collection, key in collections
             li
-              span= key
+              span= toLocale(collection[0], 'collection')
               ul
                 each page in collection
                   - const current = page.path === path
-                  li: a(href=`${baseUrl}/${page.path}` class=current ? 'is-current' : undefined)= page.title
+                  li: a(href=`${baseUrl}/${page.path}` class=current ? 'is-current' : undefined)= toLocale(page, 'title')
     main !{contents}
     footer
