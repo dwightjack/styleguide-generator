@@ -1,6 +1,6 @@
 ---
 title: Colors
-collection: Style
+collection: All
 description: えええええ
 
 title_ja: カーラ

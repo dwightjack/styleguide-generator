@@ -5,5 +5,6 @@ generate({
     dest: 'public/styleguide',
     baseUrl: '/styleguide',
     verbose: true,
+    sortCollections: 'reverse',
     locale: 'ja'
 });
