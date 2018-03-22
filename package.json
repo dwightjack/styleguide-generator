@@ -1,6 +1,6 @@
 {
   "name": "styleguide-generator",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Living Styleguide Generator",
   "main": "lib/generator.js",
   "author": "Marco Solazzi",
